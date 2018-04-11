@@ -28,7 +28,7 @@ public class Main extends Application {
             {0.0, 1.0, 0.0},
             {0.0, 0.0, 1.0}
     };
-    private double[][] Translation, Rotation, Skalierung, positions;
+    private double[][] Translation, Rotation, Scaling, positions;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -141,7 +141,7 @@ public class Main extends Application {
                 {0.0, 1.0, yTrans},
                 {0.0, 0.0, 1.0},
         };
-        Skalierung = new double[][]{
+        Scaling = new double[][]{
                 {skalierung, 0.0, 1.0},
                 {0.0, skalierung, 1.0},
                 {0.0, 0.0, 1.0}
@@ -154,7 +154,7 @@ public class Main extends Application {
                 {0.0, 0.0, 1.0}
         };
 
-        M = Matrix.matMult(Translation, Matrix.matMult(Rotation, Skalierung));
+        M = Matrix.matMult(Translation, Matrix.matMult(Rotation, Scaling));
         applyTransformation();
     }
 
