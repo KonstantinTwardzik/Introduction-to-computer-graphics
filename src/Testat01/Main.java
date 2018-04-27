@@ -217,8 +217,8 @@ public class Main extends Application {
         xRotMat = new Label("X Rotation:");
         yRotMat = new Label("Y Rotation:");
         zRotMat = new Label("Z Rotation:");
-        pPointMat = new Label("Pivot Point:");
-        npPointMat = new Label("Negative Pivot Point:");
+        pPointMat = new Label("Pivot SplinePoint:");
+        npPointMat = new Label("Negative Pivot SplinePoint:");
         scaleMat = new Label("Scale:");
         translationMat = new Label("Translation:");
         totalMat = new Label("Total:");
