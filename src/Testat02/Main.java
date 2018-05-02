@@ -14,11 +14,12 @@ public class Main extends Application {
     private Pane drawPane;
     private MenuBar menuBar;
     private Menu file, options, about, hSplineMenu;
-    private CheckMenuItem hCurveMenu, hSplineNatMenu, hSplineParMenu, bSplineMenu, cSplineMenu;
+    private CheckMenuItem hCurveMenu, hSplineNatMenu, hSplineParMenu, bCurveMenu, cSplineMenu;
     private Label PointCountLbl;
     private ArrayList<SplinePoint> pointList;
     private HermiteCurve hCurve;
     private HermiteSpline hSpline;
+    private BezierCurve bCurve;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -37,6 +38,7 @@ public class Main extends Application {
         drawPane.setOnMousePressed(e -> createPoint(e.isControlDown(), e.getButton(), e.getX(), e.getY()));
         hCurve = new HermiteCurve(drawPane, pointList);
         hSpline = new HermiteSpline(drawPane, pointList);
+        bCurve = new BezierCurve(drawPane, pointList);
     }
 
     // Initiates the view
@@ -50,16 +52,16 @@ public class Main extends Application {
         about = new Menu("Help");
         hSplineMenu = new Menu("Hermite Spline");
         hCurveMenu = new CheckMenuItem("Hermite Curve");
+        bCurveMenu = new CheckMenuItem("Bezier Curve");
         hSplineNatMenu = new CheckMenuItem("Natural");
         hSplineParMenu = new CheckMenuItem("Parabolic");
-        bSplineMenu = new CheckMenuItem("Bezier Spline");
         cSplineMenu = new CheckMenuItem("Cardinal Spline");
         PointCountLbl = new Label("Number of points: 0");
 
         // Connect everything
         menuBar.getMenus().addAll(file, options, about);
         hSplineMenu.getItems().addAll(hSplineNatMenu, hSplineParMenu);
-        options.getItems().addAll(hCurveMenu, hSplineMenu, bSplineMenu, cSplineMenu);
+        options.getItems().addAll(hCurveMenu, bCurveMenu, hSplineMenu, cSplineMenu);
         drawPane.getChildren().addAll(PointCountLbl, menuBar);
 
         // Set layout and design properties
@@ -71,10 +73,13 @@ public class Main extends Application {
         hCurveMenu.setOnAction(e -> hCurve.initiateCurve(hCurveMenu.isSelected()));
         hSplineNatMenu.setOnAction(e -> hSpline.initiateNatSpline(hSplineNatMenu.isSelected()));
         hSplineParMenu.setOnAction(e -> hSpline.initiateParSpline(hSplineParMenu.isSelected()));
+        bCurveMenu.setOnAction(e -> bCurve.updateCurve(bCurveMenu.isSelected()));
     }
 
     public void updateSplines() {
-        hSpline.initiateNatSpline(hSplineNatMenu.isSelected());
+        hSpline.updateNatSpline(hSplineNatMenu.isSelected());
+        hSpline.updateParSpline(hSplineParMenu.isSelected());
+        bCurve.updateCurve(bCurveMenu.isSelected());
     }
 
     public void setLabel(String text) {
@@ -100,6 +105,7 @@ public class Main extends Application {
         hCurve.initiateCurve(hCurveMenu.isSelected());
         hSpline.initiateNatSpline(hSplineNatMenu.isSelected());
         hSpline.initiateParSpline(hSplineParMenu.isSelected());
+        bCurve.updateCurve(bCurveMenu.isSelected());
     }
 
     public static void main(String[] args) {
