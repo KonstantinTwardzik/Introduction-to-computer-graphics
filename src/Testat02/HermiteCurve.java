@@ -1,30 +1,29 @@
 package Testat02;
 
 import javafx.beans.property.SimpleDoubleProperty;
-import javafx.scene.Node;
-import javafx.scene.input.MouseButton;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Line;
 
 import java.util.ArrayList;
 
-public class HermiteCurve {
+class HermiteCurve {
 
     private ArrayList<SplinePoint> pointList;
     private Pane drawPane;
-    private Line tangent1, tangent2, line;
+    private Line tangent1;
+    private Line tangent2;
     private ArrayList<Line> lineArray;
     private boolean isThereACurve;
 
-    public HermiteCurve(Pane drawPane, ArrayList<SplinePoint> pointList) {
+    HermiteCurve(Pane drawPane, ArrayList<SplinePoint> pointList) {
         this.pointList = pointList;
         this.drawPane = drawPane;
         this.isThereACurve = false;
-        this.lineArray = new ArrayList<Line>();
+        this.lineArray = new ArrayList<>();
 
     }
 
-    public void initiateCurve(boolean b) {
+    void initiateCurve(boolean b) {
         if (pointList.size() == 4 && b && !isThereACurve) {
             drawCurve();
         } else {
@@ -32,7 +31,7 @@ public class HermiteCurve {
         }
     }
 
-    public void drawCurve() {
+    private void drawCurve() {
         SimpleDoubleProperty oldX = pointList.get(0).xPosProperty();
         SimpleDoubleProperty oldY = pointList.get(0).yPosProperty();
         SimpleDoubleProperty x0, x1, x2, x3, y0, y1, y2, y3;
@@ -68,7 +67,7 @@ public class HermiteCurve {
             SimpleDoubleProperty newY = new SimpleDoubleProperty();
             newX.bind(x0.multiply(h[0]).add(x1.multiply(h[1])).add(x2.subtract(x0).multiply(h[2])).add(x1.subtract(x3).multiply(h[3])));
             newY.bind(y0.multiply(h[0]).add(y1.multiply(h[1])).add(y2.subtract(y0).multiply(h[2])).add(y1.subtract(y3).multiply(h[3])));
-            line = new Line();
+            Line line = new Line();
             line.setStrokeWidth(3);
             line.startXProperty().bind(oldX);
             line.startYProperty().bind(oldY);
@@ -79,14 +78,13 @@ public class HermiteCurve {
             oldY = newY;
             lineArray.add(line);
         }
-
         isThereACurve = true;
     }
 
-    public void deleteCurve() {
+    private void deleteCurve() {
         isThereACurve = false;
-        for (int i = 0; i < lineArray.size(); ++i) {
-            drawPane.getChildren().remove(lineArray.get(i));
+        for (Line aLineArray : lineArray) {
+            drawPane.getChildren().remove(aLineArray);
         }
         drawPane.getChildren().remove(tangent1);
         drawPane.getChildren().remove(tangent2);

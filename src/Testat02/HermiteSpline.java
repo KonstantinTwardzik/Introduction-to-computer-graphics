@@ -6,25 +6,22 @@ import javafx.scene.shape.Line;
 
 import java.util.ArrayList;
 
-public class HermiteSpline {
+class HermiteSpline {
 
     private double[][] P, AN, BN, AP, BP;
     private ArrayList<SplinePoint> pointList;
     private ArrayList<Line> lineArrayNat, lineArrayPar;
     private Pane drawPane;
-    private boolean isThereANaturalSpline, isThereAParabolicSpline;
     private Line line;
 
-    public HermiteSpline(Pane drawPane, ArrayList<SplinePoint> pointList) {
+    HermiteSpline(Pane drawPane, ArrayList<SplinePoint> pointList) {
         this.pointList = pointList;
         this.drawPane = drawPane;
-        lineArrayNat = new ArrayList<Line>();
-        lineArrayPar = new ArrayList<Line>();
-        isThereANaturalSpline = false;
-        isThereAParabolicSpline = false;
+        lineArrayNat = new ArrayList<>();
+        lineArrayPar = new ArrayList<>();
     }
 
-    public void initiateParSpline(boolean selected) {
+    void initiateParSpline(boolean selected) {
         if (pointList.size() >= 3 && selected) {
             calculateParSpline();
         } else {
@@ -32,7 +29,7 @@ public class HermiteSpline {
         }
     }
 
-    public void initiateNatSpline(boolean selected) {
+    void initiateNatSpline(boolean selected) {
         if (pointList.size() >= 3 && selected) {
             calculateNatSpline();
         } else {
@@ -40,19 +37,19 @@ public class HermiteSpline {
         }
     }
 
-    public void updateNatSpline(boolean selected) {
+    void updateNatSpline(boolean selected) {
         if (pointList.size() >= 3 && selected) {
             updateNatSpline();
         }
     }
 
-    public void updateParSpline(boolean selected) {
+    void updateParSpline(boolean selected) {
         if (pointList.size() >= 3 && selected) {
             updateParSpline();
         }
     }
 
-    public void calculateParSpline() {
+    private void calculateParSpline() {
 
         P = new double[pointList.size()][2];
         for (int i = 0; i < pointList.size(); ++i) {
@@ -120,7 +117,7 @@ public class HermiteSpline {
         updateParSpline();
     }
 
-    public void calculateNatSpline() {
+    private void calculateNatSpline() {
 
         P = new double[pointList.size()][2];
         for (int i = 0; i < pointList.size(); ++i) {
@@ -202,7 +199,6 @@ public class HermiteSpline {
             oldX = newX;
             oldY = newY;
         }
-        isThereANaturalSpline = true;
     }
 
     private void drawParSpline(double p0x, double p0y, double p1x, double p1y, double t0x, double t0y, double t1x, double t1y) {
@@ -219,24 +215,21 @@ public class HermiteSpline {
             oldX = newX;
             oldY = newY;
         }
-        isThereAParabolicSpline = true;
     }
 
-    public void deleteNatSpline() {
-        isThereANaturalSpline = false;
-        for (int i = 0; i < lineArrayNat.size(); ++i) {
-            drawPane.getChildren().remove(lineArrayNat.get(i));
+    private void deleteNatSpline() {
+        for (Line aLineArrayNat : lineArrayNat) {
+            drawPane.getChildren().remove(aLineArrayNat);
         }
     }
 
-    public void deleteParSpline() {
-        isThereAParabolicSpline = false;
-        for (int i = 0; i < lineArrayPar.size(); ++i) {
-            drawPane.getChildren().remove(lineArrayPar.get(i));
+    private void deleteParSpline() {
+        for (Line aLineArrayPar : lineArrayPar) {
+            drawPane.getChildren().remove(aLineArrayPar);
         }
     }
 
-    public void updateParSpline() {
+    private void updateParSpline() {
         deleteParSpline();
         P = new double[pointList.size()][2];
         for (int i = 0; i < pointList.size(); ++i) {

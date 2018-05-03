@@ -2,7 +2,10 @@ package Testat02;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.CheckMenuItem;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -12,17 +15,20 @@ import java.util.ArrayList;
 public class Main extends Application {
 
     private Pane drawPane;
-    private MenuBar menuBar;
-    private Menu file, options, about, hSplineMenu;
     private CheckMenuItem hCurveMenu, hSplineNatMenu, hSplineParMenu, bCurveMenu, cSplineMenu;
     private Label PointCountLbl;
     private ArrayList<SplinePoint> pointList;
     private HermiteCurve hCurve;
     private HermiteSpline hSpline;
     private BezierCurve bCurve;
+    private CatmullRomSpline cSpline;
+
+    public static void main(String[] args) {
+        launch(args);
+    }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         initView();
         initLogic();
         Scene scene = new Scene(drawPane);
@@ -33,29 +39,30 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void initLogic() {
-        pointList = new ArrayList<SplinePoint>();
+    private void initLogic() {
+        pointList = new ArrayList<>();
         drawPane.setOnMousePressed(e -> createPoint(e.isControlDown(), e.getButton(), e.getX(), e.getY()));
         hCurve = new HermiteCurve(drawPane, pointList);
         hSpline = new HermiteSpline(drawPane, pointList);
         bCurve = new BezierCurve(drawPane, pointList);
+        cSpline = new CatmullRomSpline(drawPane, pointList);
     }
 
     // Initiates the view
-    public void initView() {
+    private void initView() {
 
         //Initiate everything
         drawPane = new Pane();
-        menuBar = new MenuBar();
-        file = new Menu("File");
-        options = new Menu("Options");
-        about = new Menu("Help");
-        hSplineMenu = new Menu("Hermite Spline");
+        MenuBar menuBar = new MenuBar();
+        Menu file = new Menu("File");
+        Menu options = new Menu("Options");
+        Menu about = new Menu("Help");
+        Menu hSplineMenu = new Menu("Hermite Spline");
         hCurveMenu = new CheckMenuItem("Hermite Curve");
         bCurveMenu = new CheckMenuItem("Bezier Curve");
         hSplineNatMenu = new CheckMenuItem("Natural");
         hSplineParMenu = new CheckMenuItem("Parabolic");
-        cSplineMenu = new CheckMenuItem("Cardinal Spline");
+        cSplineMenu = new CheckMenuItem("Catmull-Rom Spline");
         PointCountLbl = new Label("Number of points: 0");
 
         // Connect everything
@@ -74,19 +81,21 @@ public class Main extends Application {
         hSplineNatMenu.setOnAction(e -> hSpline.initiateNatSpline(hSplineNatMenu.isSelected()));
         hSplineParMenu.setOnAction(e -> hSpline.initiateParSpline(hSplineParMenu.isSelected()));
         bCurveMenu.setOnAction(e -> bCurve.updateCurve(bCurveMenu.isSelected()));
+        cSplineMenu.setOnAction(e -> cSpline.initiateSpline(cSplineMenu.isSelected()));
     }
 
-    public void updateSplines() {
+    void updateSplines() {
         hSpline.updateNatSpline(hSplineNatMenu.isSelected());
         hSpline.updateParSpline(hSplineParMenu.isSelected());
         bCurve.updateCurve(bCurveMenu.isSelected());
+        cSpline.initiateSpline(cSplineMenu.isSelected());
     }
 
-    public void setLabel(String text) {
+    private void setLabel(String text) {
         PointCountLbl.setText(text);
     }
 
-    public void createPoint(boolean strg, MouseButton button, double xPos, double yPos) {
+    private void createPoint(boolean strg, MouseButton button, double xPos, double yPos) {
         if (button == MouseButton.PRIMARY && strg) {
             SplinePoint p = new SplinePoint(xPos, yPos, drawPane, this);
             pointList.add(p);
@@ -95,21 +104,18 @@ public class Main extends Application {
         }
     }
 
-    public void deletePoint(SplinePoint p) {
+    void deletePoint(SplinePoint p) {
         pointList.remove(p);
         setLabel("Number of points: " + pointList.size());
         initiateSplines();
     }
 
-    public void initiateSplines() {
+    private void initiateSplines() {
         hCurve.initiateCurve(hCurveMenu.isSelected());
         hSpline.initiateNatSpline(hSplineNatMenu.isSelected());
         hSpline.initiateParSpline(hSplineParMenu.isSelected());
         bCurve.updateCurve(bCurveMenu.isSelected());
-    }
-
-    public static void main(String[] args) {
-        launch(args);
+        cSpline.initiateSpline(cSplineMenu.isSelected());
     }
 
 

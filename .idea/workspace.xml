@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6caee6b4-57ea-44dd-8a01-13bccac22a0c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Testat02/BezierCurve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testat02/CatmullRomSpline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat02/BezierCurve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/BezierCurve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat02/HermiteCurve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/HermiteCurve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testat02/HermiteSpline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/HermiteSpline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testat02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat02/SplinePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/SplinePoint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,34 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="75" column="78" selection-start-line="75" selection-start-column="78" selection-end-line="75" selection-end-column="78" />
-              <folding>
-                <element signature="method#start#0;class#Main#0" />
-                <element signature="method#initLogic#0;class#Main#0" />
-                <element signature="method#updateSplines#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BezierCurve.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Testat02/BezierCurve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-              <folding>
-                <element signature="method#BezierCurve#0;class#BezierCurve#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +46,7 @@
       <find>x</find>
       <find>main</find>
       <find>A</find>
+      <find>Curve</find>
     </findStrings>
     <replaceStrings>
       <replace>workingModel</replace>
@@ -86,6 +64,7 @@
       <replace>totalRotation</replace>
       <replace>y</replace>
       <replace>B</replace>
+      <replace>Spline</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,11 +83,13 @@
         <option value="$PROJECT_DIR$/src/Testat02/Point.java" />
         <option value="$PROJECT_DIR$/src/Testat02/BezierSpline.java" />
         <option value="$PROJECT_DIR$/src/Testat02/HermiteKurve.java" />
-        <option value="$PROJECT_DIR$/src/Testat02/HermiteCurve.java" />
-        <option value="$PROJECT_DIR$/src/Testat02/SplinePoint.java" />
-        <option value="$PROJECT_DIR$/src/Testat02/HermiteSpline.java" />
-        <option value="$PROJECT_DIR$/src/Testat02/Main.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/CardinalSpline.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/CatmullRomSpline.java" />
         <option value="$PROJECT_DIR$/src/Testat02/BezierCurve.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/Main.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/SplinePoint.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/HermiteCurve.java" />
+        <option value="$PROJECT_DIR$/src/Testat02/HermiteSpline.java" />
       </list>
     </option>
   </component>
@@ -122,39 +103,27 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="726" />
+    <option name="y" value="-19" />
     <option name="width" value="1016" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testat02" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -171,6 +140,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Introduction-to-computer-graphics" type="cbb8eebc:String" user="Introduction-to-computer-graphics" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +172,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -233,7 +224,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung01.Main" />
+      <module name="Introduction-to-computer-graphics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testat02.Main" />
       <module name="Introduction-to-computer-graphics" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -243,11 +239,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung01.Main" />
-      <module name="Introduction-to-computer-graphics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testat02.Main" />
@@ -334,9 +325,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -376,19 +367,25 @@
       <workItem from="1524820003524" duration="6097000" />
       <workItem from="1525243129609" duration="4089000" />
       <workItem from="1525257680119" duration="10627000" />
+      <workItem from="1525278462331" duration="1472000" />
+      <workItem from="1525279949281" duration="283000" />
+      <workItem from="1525280247499" duration="104000" />
+      <workItem from="1525280372521" duration="202000" />
+      <workItem from="1525280588944" duration="2579000" />
+      <workItem from="1525291917571" duration="2657000" />
+      <workItem from="1525331993895" duration="2411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128646000" />
+    <option name="totallyTimeSpent" value="138354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1855" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1850" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.3220859" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32110092" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -396,11 +393,11 @@
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17527862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17431192" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18977705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21155943" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,48 +429,18 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="62" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Testat02/SplinePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteSpline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initiateParSpline#0;class#HermiteSpline#0" />
-            <element signature="method#initiateNatSpline#0;class#HermiteSpline#0" />
-            <element signature="method#updateNatSpline#0;class#HermiteSpline#0" />
-            <element signature="method#updateParSpline#0;class#HermiteSpline#0" />
-            <element signature="method#calculateParSpline#0;class#HermiteSpline#0" />
-            <element signature="method#calculateNatSpline#0;class#HermiteSpline#0" />
-            <element signature="method#drawNatSpline#0;class#HermiteSpline#0" />
-            <element signature="method#drawParSpline#0;class#HermiteSpline#0" />
-            <element signature="method#deleteNatSpline#0;class#HermiteSpline#0" />
-            <element signature="method#deleteParSpline#0;class#HermiteSpline#0" />
-            <element signature="method#updateParSpline#1;class#HermiteSpline#0" />
-            <element signature="method#updateNatSpline#1;class#HermiteSpline#0" />
-            <element signature="method#bindFunction#0;class#HermiteSpline#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1802">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -483,9 +450,7 @@
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="method#HermiteCurve#0;class#HermiteCurve#0" />
-            <element signature="method#initiateCurve#0;class#HermiteCurve#0" />
-            <element signature="method#deleteCurve#0;class#HermiteCurve#0" />
+            <element signature="imports" expanded="true" />
             <element signature="method#bindFunction#0;class#HermiteCurve#0" />
           </folding>
         </state>
@@ -519,9 +484,9 @@
         <state relative-caret-position="1802">
           <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -531,9 +496,7 @@
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="method#HermiteCurve#0;class#HermiteCurve#0" />
-            <element signature="method#initiateCurve#0;class#HermiteCurve#0" />
-            <element signature="method#deleteCurve#0;class#HermiteCurve#0" />
+            <element signature="imports" expanded="true" />
             <element signature="method#bindFunction#0;class#HermiteCurve#0" />
           </folding>
         </state>
@@ -567,9 +530,9 @@
         <state relative-caret-position="544">
           <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -579,9 +542,7 @@
         <state relative-caret-position="680">
           <caret line="40" selection-start-line="40" selection-end-line="52" selection-end-column="5" />
           <folding>
-            <element signature="method#HermiteCurve#0;class#HermiteCurve#0" />
-            <element signature="method#initiateCurve#0;class#HermiteCurve#0" />
-            <element signature="method#deleteCurve#0;class#HermiteCurve#0" />
+            <element signature="imports" expanded="true" />
             <element signature="method#bindFunction#0;class#HermiteCurve#0" />
           </folding>
         </state>
@@ -606,9 +567,9 @@
         <state relative-caret-position="1054">
           <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -625,9 +586,9 @@
         <state relative-caret-position="680">
           <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -644,9 +605,9 @@
         <state relative-caret-position="765">
           <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -663,9 +624,9 @@
         <state relative-caret-position="731">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -682,9 +643,9 @@
         <state relative-caret-position="731">
           <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -701,9 +662,9 @@
         <state relative-caret-position="1105">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -720,9 +681,9 @@
         <state relative-caret-position="595">
           <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -732,9 +693,9 @@
         <state relative-caret-position="595">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -745,11 +706,6 @@
           <caret line="510" selection-start-line="510" selection-end-line="510" />
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -760,11 +716,6 @@
           <caret line="510" lean-forward="true" selection-start-line="510" selection-end-line="510" />
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -774,11 +725,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -788,11 +734,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -802,11 +743,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -816,11 +752,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -830,11 +761,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -844,11 +770,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -858,11 +779,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -872,11 +788,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -886,11 +797,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -900,11 +806,6 @@
         <state>
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
@@ -952,39 +853,68 @@
           <caret line="520" column="49" lean-forward="true" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
           <folding>
             <element signature="e#7766#7911#0" />
-            <element signature="e#18539#18868#0" />
-            <element signature="e#19241#19602#0" />
-            <element signature="e#19608#19969#0" />
-            <element signature="e#19975#20190#0" />
-            <element signature="e#22454#28360#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteCurve.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="483">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/CatmullRomSpline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
-            <element signature="method#HermiteCurve#0;class#HermiteCurve#0" />
-            <element signature="method#initiateCurve#0;class#HermiteCurve#0" />
-            <element signature="method#deleteCurve#0;class#HermiteCurve#0" />
-            <element signature="method#bindFunction#0;class#HermiteCurve#0" />
+            <element signature="method#initSpline#0;class#CatmullRomSpline#0" />
+            <element signature="method#deleteSpline#0;class#CardinalSpline#0" />
+            <element signature="method#bindFunction#0;class#CardinalSpline#0" />
+            <element signature="method#drawCSpline#0;class#CatmullRomSpline#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/BezierCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="method#BezierCurve#0;class#BezierCurve#0" />
+            <element signature="method#binCoe#0;class#BezierCurve#0" />
+            <element signature="method#updateCurve#0;class#BezierCurve#0" />
+            <element signature="method#calculateCurve#0;class#BezierCurve#0" />
+            <element signature="method#drawCurve#0;class#BezierCurve#0" />
+            <element signature="method#deleteCurve#0;class#BezierCurve#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="method#createPoint#0;class#Main#0" />
+            <element signature="method#deletePoint#0;class#Main#0" />
+            <element signature="method#initiateSplines#0;class#Main#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat02/SplinePoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="369">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteSpline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="966">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initiateParSpline#0;class#HermiteSpline#0" />
@@ -1004,24 +934,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteCurve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="75" column="78" selection-start-line="75" selection-start-column="78" selection-end-line="75" selection-end-column="78" />
+        <state relative-caret-position="184">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
-            <element signature="method#initLogic#0;class#Main#0" />
-            <element signature="method#updateSplines#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/BezierCurve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="method#BezierCurve#0;class#BezierCurve#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#bindFunction#0;class#HermiteCurve#0" />
           </folding>
         </state>
       </provider>
@@ -1091,7 +1010,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1102,6 +1021,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

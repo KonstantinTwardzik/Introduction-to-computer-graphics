@@ -13,7 +13,7 @@ public class SplinePoint {
     private Pane drawPane;
     private Main main;
 
-    public SplinePoint(double xPos, double yPos, Pane drawPane, Main main) {
+    SplinePoint(double xPos, double yPos, Pane drawPane, Main main) {
         this.xPos = new SimpleDoubleProperty(xPos);
         this.yPos = new SimpleDoubleProperty(yPos);
         this.drawPane = drawPane;
@@ -25,11 +25,11 @@ public class SplinePoint {
         circle.centerYProperty().bind(yPosProperty());
         drawPane.getChildren().add(circle);
         circle.setOnMousePressed(e -> deletePoint(e.getButton(), circle));
-        circle.setOnMouseDragged(e -> dragPoint(e.getButton(), e.getX(), e.getY(), circle));
+        circle.setOnMouseDragged(e -> dragPoint(e.getButton(), e.getX(), e.getY()));
 
     }
 
-    public void dragPoint(MouseButton button, double xPos, double yPos, Circle c) {
+    private void dragPoint(MouseButton button, double xPos, double yPos) {
         if(button == MouseButton.PRIMARY) {
             this.xPos.set(xPos);
             this.yPos.set(yPos);
@@ -37,7 +37,7 @@ public class SplinePoint {
         }
     }
 
-    public void deletePoint(MouseButton button, Circle c) {
+    private void deletePoint(MouseButton button, Circle c) {
         if (button == MouseButton.SECONDARY) {
             main.deletePoint(this);
             drawPane.getChildren().remove(c);
@@ -45,28 +45,20 @@ public class SplinePoint {
 
     }
 
-    public double getxPos() {
+    double getxPos() {
         return xPos.get();
     }
 
-    public SimpleDoubleProperty xPosProperty() {
+    SimpleDoubleProperty xPosProperty() {
         return xPos;
     }
 
-    public void setxPos(double xPos) {
-        this.xPos.set(xPos);
-    }
-
-    public double getyPos() {
+    double getyPos() {
         return yPos.get();
     }
 
-    public SimpleDoubleProperty yPosProperty() {
+    SimpleDoubleProperty yPosProperty() {
         return yPos;
-    }
-
-    public void setyPos(double yPos) {
-        this.yPos.set(yPos);
     }
 
 }
