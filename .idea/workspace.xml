@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6caee6b4-57ea-44dd-8a01-13bccac22a0c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Testat03/BufferHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/MatrixHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/Shaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/TriangleViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testat03/CubeViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testat03/Gauss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testat03/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-to-computer-graphics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-to-computer-graphics.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="TriangleViewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testat03/TriangleViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubeViewer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="method#run#0;class#TriangleViewer#0" />
+                <element signature="method#frame#0;class#TriangleViewer#0" />
+                <element signature="method#initBuffers#0;class#TriangleViewer#0" />
+                <element signature="method#initShaders#0;class#TriangleViewer#0" />
+                <element signature="method#initWindow#0;class#TriangleViewer#0" />
+                <element signature="method#initViewProjection#0;class#Cu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifierWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testat03/ModifierWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+              <folding>
+                <element signature="e#1022#1276#0" />
+                <element signature="e#1286#6716#0" />
+                <element signature="e#6722#12988#0" />
+                <element signature="e#10646#10847#0" />
+                <element signature="e#10894#11095#0" />
+                <element signature="e#11142#11343#0" />
+                <element signature="e#11390#11549#0" />
+                <element signature="e#11596#11755#0" />
+                <element signature="e#11802#11961#0" />
+                <element signature="e#12009#12162#0" />
+                <element signature="e#12210#12435#0" />
+                <element signature="e#12483#12708#0" />
+                <element signature="e#12756#12980#0" />
+                <element signature="e#12994#13323#0" />
+                <element signature="e#13329#13690#0" />
+                <element signature="e#13696#14057#0" />
+                <element signature="e#14063#14424#0" />
+                <element signature="e#14430#14645#0" />
+                <element signature="e#14651#15265#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testat03/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gauss.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testat03/Gauss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +184,10 @@
         <option value="$USER_HOME$/AppData/Local/Temp/DreieckUebung.java" />
         <option value="$PROJECT_DIR$/src/Testat03/DreieckUebung.java" />
         <option value="$PROJECT_DIR$/src/Testat03/TriangleViewer.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/CubeViewer.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/Gauss.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" />
       </list>
     </option>
   </component>
@@ -118,8 +201,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2167" />
-    <option name="y" value="-19" />
+    <option name="x" value="295" />
+    <option name="y" value="-9" />
     <option name="width" value="1016" />
     <option name="height" value="1087" />
   </component>
@@ -128,12 +211,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Introduction-to-computer-graphics" type="cbb8eebc:String" user="Introduction-to-computer-graphics" />
+              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,28 +249,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <expand>
             <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-              <item name="Testat03" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="introduction to computer graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Introduction-to-computer-graphics" type="cbb8eebc:String" user="Introduction-to-computer-graphics" />
             </path>
           </expand>
           <select />
@@ -196,17 +274,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Informatik\GitHub\Introduction-to-computer-graphics\src\Testat03" />
-      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src\Testat01" />
+      <recent name="D:\Informatik\GitHub\Introduction-to-computer-graphics\src\Testat02" />
+      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src\Uebung02" />
+      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Uebung02" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Informatik\GitHub\Introduction-to-computer-graphics\src\Testat03" />
-      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src\Uebung02" />
-      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src" />
+      <recent name="C:\Users\Konstantin\Documents\GitHub\Introduction-to-computer-graphics\src\Testat01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,9 +300,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TriangleViewer">
+  <component name="RunManager" selected="Application.CubeViewer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="CubeViewer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CubeViewer" />
+      <module name="Introduction-to-computer-graphics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CubeViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testat03.CubeViewer" />
+      <module name="Introduction-to-computer-graphics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testat03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testat01.Main" />
@@ -343,9 +438,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.TriangleViewer" />
+      <item itemvalue="Application.CubeViewer" />
+      <item itemvalue="Application.CubeViewer (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CubeViewer" />
+        <item itemvalue="Application.CubeViewer (1)" />
         <item itemvalue="Application.TriangleViewer" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
@@ -399,39 +498,48 @@
       <workItem from="1525697474739" duration="16000" />
       <workItem from="1525700784076" duration="960000" />
       <workItem from="1527421195737" duration="1104000" />
-      <workItem from="1527664251051" duration="18581000" />
+      <workItem from="1527664251051" duration="19075000" />
+      <workItem from="1527772878581" duration="4947000" />
     </task>
+    <task id="LOCAL-00001" summary="Testat 03 started">
+      <created>1527685608699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527685608699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159021000" />
+    <option name="totallyTimeSpent" value="164462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1850" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32110092" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49836424" weight="0.32110092" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5016358" side_tool="true" visible="true" weight="0.17431192" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17431192" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836424" weight="0.17431192" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.085575886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.086695746" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32925585" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49890947" weight="0.32925585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918947" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945474" weight="0.3985729" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
@@ -444,6 +552,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testat 03 started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testat 03 started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,48 +571,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteSpline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/SplinePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/SplinePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat02/SplinePoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -764,13 +834,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Testat02/d.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/d.java" />
     <entry file="file://$PROJECT_DIR$/src/Testat02/CatmullRomSpline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -785,52 +849,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung_old.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-          <folding>
-            <element signature="method#DreieckUebung_old#0;class#DreieckUebung_old#0" />
-            <element signature="method#run#0;class#DreieckUebung#0" />
-            <element signature="method#frame#0;class#DreieckUebung#0" />
-            <element signature="method#initBuffers#0;class#DreieckUebung#0" />
-            <element signature="e#3745#3798#0" />
-            <element signature="method#createShader#0;class#DreieckUebung_old#0" />
-            <element signature="method#initWindow#0;class#DreieckUebung#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/TriangleViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="149" column="47" lean-forward="true" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
-          <folding>
-            <element signature="method#run#0;class#Triangle#0" />
-            <element signature="method#frame#0;class#Triangle#0" />
-            <element signature="method#initWindow#0;class#Triangle#0" />
-            <element signature="method#initViewProjection#0;class#Triangle#0" />
-            <marker date="1527685521016" expanded="false" signature="2722:3394" ph="..." />
-            <marker date="1527685521016" expanded="false" signature="3422:4027" ph="..." />
-            <marker date="1527685521016" expanded="false" signature="4060:4525" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung_old.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/DreieckUebung.java" />
     <entry file="file://$PROJECT_DIR$/src/Testat03/BufferHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -842,6 +863,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/TriangleViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/TriangleViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lwjgl-release-3.1.6-custom/lwjgl-sources.jar!/org/lwjgl/system/MemoryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Gauss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/ModifierWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding>
+            <element signature="e#1022#1276#0" />
+            <element signature="e#1286#6716#0" />
+            <element signature="e#6722#12988#0" />
+            <element signature="e#10646#10847#0" />
+            <element signature="e#10894#11095#0" />
+            <element signature="e#11142#11343#0" />
+            <element signature="e#11390#11549#0" />
+            <element signature="e#11596#11755#0" />
+            <element signature="e#11802#11961#0" />
+            <element signature="e#12009#12162#0" />
+            <element signature="e#12210#12435#0" />
+            <element signature="e#12483#12708#0" />
+            <element signature="e#12756#12980#0" />
+            <element signature="e#12994#13323#0" />
+            <element signature="e#13329#13690#0" />
+            <element signature="e#13696#14057#0" />
+            <element signature="e#14063#14424#0" />
+            <element signature="e#14430#14645#0" />
+            <element signature="e#14651#15265#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="method#run#0;class#TriangleViewer#0" />
+            <element signature="method#frame#0;class#TriangleViewer#0" />
+            <element signature="method#initBuffers#0;class#TriangleViewer#0" />
+            <element signature="method#initShaders#0;class#TriangleViewer#0" />
+            <element signature="method#initWindow#0;class#TriangleViewer#0" />
+            <element signature="method#initViewProjection#0;class#Cu#0" />
+          </folding>
         </state>
       </provider>
     </entry>
