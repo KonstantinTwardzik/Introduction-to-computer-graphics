@@ -1,5 +1,8 @@
 package Testat03;
 
+import Testat03.Shaders.Shaders;
+import Testat03.Utils.BufferHelper;
+import Testat03.Utils.MatrixHelper;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWErrorCallback;

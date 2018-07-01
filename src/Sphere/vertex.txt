@@ -1,0 +1,20 @@
+#version 330
+
+// Attributes
+in vec4 in_pos;
+in vec2 in_uv;
+out vec2 var_uv;
+out vec3 var_pos;
+
+// Uniforms \n"
+uniform float aspectRatio;
+uniform mat4 modelMatrix; // Die Modelmatrix
+uniform mat4 viewMatrix; // View Matrix (wird später für die Projektion verwendet)
+uniform mat4 projMatrix; // Projection Matrix (wird später für die Projektion verwendet)
+
+void main(){
+	gl_Position= vec4(in_pos.x, in_pos.y * aspectRatio, in_pos.zw); // aspectRatio wird berechnet
+	gl_Position = projMatrix * viewMatrix * modelMatrix * gl_Position;
+	var_uv=in_uv;
+	var_pos = gl_Position.xyz;
+}

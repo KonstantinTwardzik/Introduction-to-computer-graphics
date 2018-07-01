@@ -1,4 +1,6 @@
-package Testat03;
+package Testat03.Utils;
+
+import Testat03.Utils.Matrix;
 
 public class Gauss {
 

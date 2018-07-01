@@ -1,4 +1,4 @@
-package Testat03;
+package Testat03.Utils;
 
 public class Matrix {
 
