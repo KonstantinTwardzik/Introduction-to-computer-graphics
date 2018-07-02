@@ -1,4 +1,4 @@
-package Uebung01;
+package Testat01;
 
 
 import javafx.application.Application;
@@ -19,12 +19,12 @@ import javafx.stage.Stage;
 
 import static javafx.scene.layout.BorderWidths.DEFAULT;
 
-public class Main extends Application {
+public class Circle_2D extends Application {
     private GridPane root;
     private Pane drawPane;
     private Slider xPosSld, yPosSld, redSld, greenSld, blueSld, sizeSld;
     private Label xPosLbl, yPosLbl, redLbl, greenLbl, blueLbl, sizeLbl;
-    private Circle circle;
+    private javafx.scene.shape.Circle circle;
 
 
     @Override
@@ -33,7 +33,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         initView();
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Circle transformation");
+        primaryStage.setTitle("Circle_2D transformation");
         primaryStage.setFullScreen(true);
         primaryStage.setWidth(1860);
         primaryStage.setHeight(1080);
@@ -49,7 +49,7 @@ public class Main extends Application {
             clipping.setWidth(newValue.getWidth());
             clipping.setHeight(newValue.getHeight());
         });
-        circle = new Circle();
+        circle = new javafx.scene.shape.Circle();
         drawPane.setPrefSize(1400, 1080);
         xPosSld = new Slider(0,1380,30);
         yPosSld = new Slider(0,1020,30);

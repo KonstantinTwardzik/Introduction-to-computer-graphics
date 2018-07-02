@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.util.ArrayList;
 
-public class Main extends Application {
+public class SplineViewer extends Application {
 
     private Pane drawPane;
     private CheckMenuItem hCurveMenu, hSplineNatMenu, hSplineParMenu, bCurveMenu, cSplineMenu;

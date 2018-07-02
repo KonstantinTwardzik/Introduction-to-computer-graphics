@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 public abstract class ShaderReader {
 
     /***
-     * Lie�t eine Datei ein und gibt dessen Inhalt (byteweise) als
-     * String zur�ck. Soll benutzt werden, um shader-Dateien einzulesen.
+     * Liest eine Datei ein und gibt dessen Inhalt (byteweise) als
+     * String zurueck. Soll benutzt werden, um shader-Dateien einzulesen.
      * @param path
      * Der Pfad vom Projekt-Ordner zur Datei. Bsp.: "./src/package/shadername.vert"
      * @return

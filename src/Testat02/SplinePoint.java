@@ -11,9 +11,9 @@ public class SplinePoint {
     private SimpleDoubleProperty yPos;
     private Circle circle;
     private Pane drawPane;
-    private Main main;
+    private SplineViewer main;
 
-    SplinePoint(double xPos, double yPos, Pane drawPane, Main main) {
+    SplinePoint(double xPos, double yPos, Pane drawPane, SplineViewer main) {
         this.xPos = new SimpleDoubleProperty(xPos);
         this.yPos = new SimpleDoubleProperty(yPos);
         this.drawPane = drawPane;

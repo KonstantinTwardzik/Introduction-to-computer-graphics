@@ -65,7 +65,7 @@ public class CubeViewer implements Runnable {
 
     //
     private void frame() {
-        double time = GLFW.glfwGetTime()*0.2;
+        double time = GLFW.glfwGetTime();
         float sin = (float) Math.sin(time);
         float cos = (float) Math.cos(time);
 
@@ -80,7 +80,7 @@ public class CubeViewer implements Runnable {
         glUniformMatrix4fv(localViewMatrix, true, BufferHelper.convertToBuffer(viewMatrix));
         glUniformMatrix4fv(localProjectionMatrix, true, BufferHelper.convertToBuffer(projectionMatrix));
 
-        glClearColor(0.2f, 0.2f, 0.22f, 1.0f);
+        glClearColor(0.95f, 0.95f, 0.95f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glDrawElements(GL_TRIANGLES, indexCount, GL_UNSIGNED_INT, 0);
     }
@@ -94,13 +94,13 @@ public class CubeViewer implements Runnable {
         int vboPosition = glGenBuffers();
         float[] positions = {
                 -1f, -1f, -1f,  1f,  	//0
-                1f, -1f, -1f,  1f,		//1
+                 1f, -1f, -1f,  1f,		//1
                 -1f, -1f,  1f,  1f,		//2
-                1f, -1f,  1f,  1f,		//3
+                 1f, -1f,  1f,  1f,		//3
                 -1f,  1f, -1f,  1f,		//4
-                1f,  1f, -1f,  1f,		//5
+                 1f,  1f, -1f,  1f,		//5
                 -1f,  1f,  1f,  1f,		//6
-                1f,  1f,  1f,  1f		//7
+                 1f,  1f,  1f,  1f		//7
         };
         FloatBuffer data = BufferUtils.createFloatBuffer(positions.length);
         data.put(positions);
@@ -122,6 +122,16 @@ public class CubeViewer implements Runnable {
                 0.239f, 0.600f, 0.239f, 1.000f,
                 0.239f, 0.600f, 0.239f, 1.000f,
         };
+//        float[] color = {
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//                0.222f, 0.222f, 0.222f, 1.000f,
+//        };
         FloatBuffer colorData = BufferUtils.createFloatBuffer(color.length);
         colorData.put(color);
         colorData.flip();
@@ -184,7 +194,7 @@ public class CubeViewer implements Runnable {
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
         glfwWindowHint(GLFW_SAMPLES, 8);
 
-        window = glfwCreateWindow(800, 800, "Triangle viewer", NULL, NULL);
+        window = glfwCreateWindow(800, 800, "Cube viewer", NULL, NULL);
         if (window == NULL) {
             throw new RuntimeException("Failed to create the GLFW window");
         }

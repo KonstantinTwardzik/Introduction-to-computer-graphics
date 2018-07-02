@@ -13,7 +13,7 @@ import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Tetraeder_3D extends Application {
 
     private GridPane root, pivotPointPane, negativePivotPointPane, totalRotationPane, scalePane, translationPane, totalPane, xRotationPane, yRotationPane, zRotationPane, sliderPane;
     private Pane drawPane;
@@ -32,7 +32,7 @@ public class Main extends Application {
         initLogic();
         initView();
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Circle transformation");
+        primaryStage.setTitle("Circle_2D transformation");
         primaryStage.show();
     }
     

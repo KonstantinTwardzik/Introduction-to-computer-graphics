@@ -1,5 +1,4 @@
-package Uebung02;
-
+package Testat01;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -11,7 +10,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.*;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Square_2D extends Application {
 
     private GridPane root;
     private Pane drawPane;
@@ -37,7 +36,7 @@ public class Main extends Application {
         initSquare();
         initView();
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Circle transformation");
+        primaryStage.setTitle("Circle_2D transformation");
         primaryStage.setFullScreen(true);
         primaryStage.setWidth(1860);
         primaryStage.setHeight(1080);
@@ -154,7 +153,7 @@ public class Main extends Application {
                 {0.0, 0.0, 1.0}
         };
 
-        M = Matrix.matMult(Translation, Matrix.matMult(Rotation, Scaling));
+        M  = Matrix.matMult(Translation, Matrix.matMult(Rotation, Scaling));
         applyTransformation();
     }
 

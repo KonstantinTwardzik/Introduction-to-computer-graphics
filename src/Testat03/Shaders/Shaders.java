@@ -22,7 +22,7 @@ public class Shaders {
         // error handling
         if (glGetShaderi(shader, GL_COMPILE_STATUS) == GL_FALSE) {
             String error = glGetShaderInfoLog(shader);
-            String shaderTypeString = null;
+            String shaderTypeString;
             switch (shaderType) {
                 case GL_VERTEX_SHADER:
                     shaderTypeString = "vertex";

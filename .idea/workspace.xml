@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java" line="204" />
+    <bookmark url="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java" line="214" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6caee6b4-57ea-44dd-8a01-13bccac22a0c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sphere/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/Gauss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/Kugel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/MatrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/MatrixHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/TextureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/fragment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere/vertex.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/Shaders/fragment.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testat03/Shaders/vertex.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/BufferHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Utils/BufferHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction-to-computer-graphics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-to-computer-graphics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/assimp_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/bgfx_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/build.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/dyncall_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/glfw_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/jemalloc_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/khronos_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/lmdb_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/lz4_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/nanosvg_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/nanovg_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/nfd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/oculus_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/openal_soft_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/openvr_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/remotery_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/tinyexr_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/tinyfd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/tootle_directxmesh_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/tootle_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/xxhash_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/yoga_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-release-3.1.6-custom/zstd_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/SplineViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat02/SplinePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat02/SplinePoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testat03/CubeViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/CubeViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/Gauss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Utils/Gauss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Utils/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/MatrixHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Utils/MatrixHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/Shaders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testat03/TriangleViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/TriangleViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uebung01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat01/Circle_2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uebung02/Gauss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uebung02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testat01/Square_2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uebung02/Matrix.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,71 +53,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kugel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sphere/Kugel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;class#Kugel#0" />
-                <element signature="method#main#0;class#Kugel#0" />
-                <element signature="method#Kugel#0;class#Kugel#0" />
-                <element signature="method#update#0;class#Kugel#0" />
-                <element signature="e#2443#2444#0" expanded="true" />
-                <element signature="e#2461#2462#0" expanded="true" />
-                <element signature="method#pointOnSphere#0;class#Kugel#0" />
-                <element signature="method#run#0;class#Kugel#0" />
-                <element signature="method#initTexture#0;class#Kugel#0" />
-                <element signature="method#frame#0;class#Kugel#0" />
-                <element signature="method#SetupMatrices#0;class#Kugel#0" />
-                <element signature="docComment;method#initWindow#0;class#Kugel#0" />
-                <element signature="method#initWindow#0;class#Kugel#0" />
-                <element signature="docComment;method#initShaders#0;class#Kugel#0" />
-                <element signature="method#initShaders#0;class#Kugel#0" />
-                <element signature="method#initBuffers#0;class#Kugel#0" />
-                <element signature="docComment;method#shaderErrorCheck#0;class#Kugel#0" />
-                <element signature="method#shaderErrorCheck#0;class#Kugel#0" />
-                <element signature="docComment;method#readFile#0;class#Kugel#0" />
-                <element signature="method#readFile#0;class#Kugel#0" />
-                <element signature="docComment;method#convert2Buffer#0;class#Kugel#0" />
-                <element signature="method#convert2Buffer#0;class#Kugel#0" />
-                <element signature="docComment;method#convert2Buffer#1;class#Kugel#0" />
-                <element signature="method#convert2Buffer#1;class#Kugel#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shaders.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vertex.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/vertex.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CubeViewer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="561">
+              <caret line="213" column="5" lean-forward="true" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
               <folding>
                 <element signature="method#run#0;class#CubeViewer#0" />
                 <element signature="method#frame#0;class#CubeViewer#0" />
                 <element signature="method#initBuffers#0;class#CubeViewer#0" />
+                <element signature="e#4112#4139#0" />
                 <element signature="method#initShaders#0;class#CubeViewer#0" />
                 <element signature="method#initWindow#0;class#CubeViewer#0" />
                 <element signature="method#initViewProjection#0;class#CubeViewer#0" />
@@ -198,20 +158,23 @@
         <option value="$PROJECT_DIR$/src/Testat03/DreieckUebung.java" />
         <option value="$PROJECT_DIR$/src/Testat03/Gauss.java" />
         <option value="$PROJECT_DIR$/src/Testat03/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" />
         <option value="$PROJECT_DIR$/src/Testat03/vertex.glsl" />
         <option value="$PROJECT_DIR$/src/Testat03/ShaderReader.java" />
         <option value="$PROJECT_DIR$/src/Testat03/fragment.glsl" />
         <option value="$PROJECT_DIR$/src/Testat03/Utils/ShaderReader.java" />
         <option value="$PROJECT_DIR$/src/Testat03/Shaders.java" />
         <option value="$PROJECT_DIR$/src/Testat03/Utils/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java" />
-        <option value="$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/SphereExample.java" />
         <option value="$PROJECT_DIR$/src/Testat03/SphereViewer.java" />
         <option value="$PROJECT_DIR$/src/Sphere/Kugel.java" />
         <option value="$PROJECT_DIR$/src/Testat03/TriangleViewer.java" />
+        <option value="$PROJECT_DIR$/src/Uebung02/Square.java" />
+        <option value="$PROJECT_DIR$/src/Uebung02/Square_2D.java" />
+        <option value="$PROJECT_DIR$/src/Testat01/Square_2D.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/ModifierWindow.java" />
         <option value="$PROJECT_DIR$/src/Testat03/CubeViewer.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java" />
+        <option value="$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java" />
       </list>
     </option>
   </component>
@@ -225,10 +188,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2509" />
-    <option name="y" value="-21" />
-    <option name="width" value="1016" />
-    <option name="height" value="1087" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1855" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
@@ -246,6 +209,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -277,34 +241,8 @@
             <path>
               <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
               <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-              <item name="Uebung01" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-              <item name="Uebung02" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
               <item name="Testat03" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="introduction to computer graphics" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-to-computer-graphics" type="616d4139:PackageViewModuleNode" />
-              <item name="Testat03" type="1f31426a:PackageElementNode" />
-              <item name="Utils" type="1f31426a:PackageElementNode" />
+              <item name="Shaders" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -316,12 +254,12 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Konstantin/Documents/GitHub/Introduction-to-computer-graphics/src/Testat02/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lwjgl-release-3.1.6-custom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/lwjgl-release-3.1.6-custom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,9 +289,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SphereViewer">
+  <component name="RunManager" selected="Application.CubeViewer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Circle_2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testat01.Circle_2D" />
+      <module name="Introduction-to-computer-graphics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testat01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="CubeViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testat03.CubeViewer" />
@@ -361,34 +310,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testat03.Shaders.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Kugel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sphere.Kugel" />
-      <module name="Introduction-to-computer-graphics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sphere.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung01.Main" />
-      <module name="Introduction-to-computer-graphics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testat02.Main" />
-      <module name="Introduction-to-computer-graphics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testat02.*" />
+          <option name="PATTERN" value="Testat03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,24 +337,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SphereViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testat03.SphereViewer" />
+    <configuration name="SplineViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testat02.SplineViewer" />
       <module name="Introduction-to-computer-graphics" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testat03.Shaders.*" />
+          <option name="PATTERN" value="Testat02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TriangleViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testat03.TriangleViewer" />
+    <configuration name="Square_2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testat01.Square_2D" />
       <module name="Introduction-to-computer-graphics" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testat03.Shaders.*" />
+          <option name="PATTERN" value="Testat01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Tetraeder_3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testat01.Tetraeder_3D" />
+      <module name="Introduction-to-computer-graphics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testat01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -492,19 +425,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TriangleViewer" />
+      <item itemvalue="Application.Tetraeder_3D" />
+      <item itemvalue="Application.SplineViewer" />
+      <item itemvalue="Application.Square_2D" />
+      <item itemvalue="Application.Circle_2D" />
       <item itemvalue="Application.CubeViewer" />
-      <item itemvalue="Application.SphereViewer" />
-      <item itemvalue="Application.Kugel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SphereViewer" />
         <item itemvalue="Application.CubeViewer" />
-        <item itemvalue="Application.TriangleViewer" />
-        <item itemvalue="Application.Kugel" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Circle_2D" />
+        <item itemvalue="Application.Square_2D" />
+        <item itemvalue="Application.SplineViewer" />
+        <item itemvalue="Application.Tetraeder_3D" />
       </list>
     </recent_temporary>
   </component>
@@ -561,6 +494,8 @@
       <workItem from="1528910634456" duration="1928000" />
       <workItem from="1530199479170" duration="39000" />
       <workItem from="1530199699847" duration="2587000" />
+      <workItem from="1530441600903" duration="1909000" />
+      <workItem from="1530444595602" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="Testat 03 started">
       <created>1527685608699</created>
@@ -573,39 +508,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170262000" />
+    <option name="totallyTimeSpent" value="173988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1855" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49563795" weight="0.32110092" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.4937466" weight="0.32016212" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5048439" side_tool="true" visible="true" weight="0.17431192" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5062534" side_tool="true" visible="true" weight="0.17426544" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49515608" weight="0.17431192" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4937466" weight="0.17426544" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14854683" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14845024" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945474" weight="0.3985729" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49864057" weight="0.39817628" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49836424" weight="0.32925585" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49755302" weight="0.32826748" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,127 +561,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Testat01/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="103" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Square_2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/SphereExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/Uebung01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="111" column="11" lean-forward="true" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfr.jar!/com/oracle/jrockit/jfr/FlightRecorder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Uebung02/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="178" column="52" lean-forward="true" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -763,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="520" column="49" lean-forward="true" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
-          <folding>
-            <element signature="e#7766#7911#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/event/EventHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/Testat02/BezierCurve.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -781,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Testat02/SplineViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
@@ -799,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteCurve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -829,165 +684,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sphere/TextureConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/Sphere/TextureConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/Sphere/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/Sphere/Gauss.java" />
+    <entry file="file://$PROJECT_DIR$/src/Sphere/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/Gauss.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/MatrixHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/BufferHelper.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/SphereExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/SphereViewer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Sphere/Kugel.java" />
+    <entry file="file://$PROJECT_DIR$/src/Testat03/TriangleViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sphere/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Tetraeder_3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="8653">
+          <caret line="520" column="49" selection-start-line="520" selection-start-column="49" selection-end-line="520" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat02/HermiteCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="88" selection-start-line="88" selection-end-line="89" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Circle_2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testat01/Square_2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sphere/Gauss.java">
+    <entry file="file://$PROJECT_DIR$/src/Testat03/ModifierWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sphere/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/fragment.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/Gauss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/MatrixHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/Utils/BufferHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="227">
+          <caret line="148" column="39" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/ShaderReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/ModifierWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="159" column="5" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/SphereExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/Testat03/SphereViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="169" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="method#run#0;class#SphereViewer#0" />
-            <element signature="method#frame#0;class#SphereViewer#0" />
-            <element signature="method#initBuffers#0;class#SphereViewer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sphere/Kugel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Kugel#0" />
-            <element signature="method#main#0;class#Kugel#0" />
-            <element signature="method#Kugel#0;class#Kugel#0" />
-            <element signature="method#update#0;class#Kugel#0" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="method#pointOnSphere#0;class#Kugel#0" />
-            <element signature="method#run#0;class#Kugel#0" />
-            <element signature="method#initTexture#0;class#Kugel#0" />
-            <element signature="method#frame#0;class#Kugel#0" />
-            <element signature="method#SetupMatrices#0;class#Kugel#0" />
-            <element signature="docComment;method#initWindow#0;class#Kugel#0" />
-            <element signature="method#initWindow#0;class#Kugel#0" />
-            <element signature="docComment;method#initShaders#0;class#Kugel#0" />
-            <element signature="method#initShaders#0;class#Kugel#0" />
-            <element signature="method#initBuffers#0;class#Kugel#0" />
-            <element signature="docComment;method#shaderErrorCheck#0;class#Kugel#0" />
-            <element signature="method#shaderErrorCheck#0;class#Kugel#0" />
-            <element signature="docComment;method#readFile#0;class#Kugel#0" />
-            <element signature="method#readFile#0;class#Kugel#0" />
-            <element signature="docComment;method#convert2Buffer#0;class#Kugel#0" />
-            <element signature="method#convert2Buffer#0;class#Kugel#0" />
-            <element signature="docComment;method#convert2Buffer#1;class#Kugel#0" />
-            <element signature="method#convert2Buffer#1;class#Kugel#0" />
+            <element signature="docComment;method#readFile#0;class#ShaderReader#0" />
+            <element signature="method#readFile#0;class#ShaderReader#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/Shaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat03/Shaders/vertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testat03/TriangleViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testat03/CubeViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="561">
+          <caret line="213" column="5" lean-forward="true" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
           <folding>
             <element signature="method#run#0;class#CubeViewer#0" />
             <element signature="method#frame#0;class#CubeViewer#0" />
             <element signature="method#initBuffers#0;class#CubeViewer#0" />
+            <element signature="e#4112#4139#0" />
             <element signature="method#initShaders#0;class#CubeViewer#0" />
             <element signature="method#initWindow#0;class#CubeViewer#0" />
             <element signature="method#initViewProjection#0;class#CubeViewer#0" />
@@ -1051,7 +837,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29667813" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1071,6 +857,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lwjgl-release-3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
